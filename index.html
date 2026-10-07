@@ -1,79 +1,948 @@
+```html
 <!doctype html>
 <html lang="zh-CN">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="聂梦溪，上海交通大学计算机学院硕士研究生。关注计算机体系结构、AI 计算加速与软硬件协同设计，具有 CPU 设计、RAG 与后端开发项目经历。">
+
+  <meta
+    name="description"
+    content="聂梦溪，上海交通大学计算机学院硕士研究生。关注计算机体系结构、AI 计算加速与软硬件协同设计，具有 CPU 设计、RAG 与后端开发项目经历。"
+  >
+
   <meta name="theme-color" content="#132e47">
+
   <title>聂梦溪 Mengxi Nie · 个人主页</title>
-  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23132e47'/%3E%3Ctext x='32' y='44' text-anchor='middle' font-family='Arial' font-size='39' fill='white'%3EN%3C/text%3E%3C/svg%3E">
+
+  <link
+    rel="icon"
+    type="image/svg+xml"
+    href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23132e47'/%3E%3Ctext x='32' y='44' text-anchor='middle' font-family='Arial' font-size='39' fill='white'%3EN%3C/text%3E%3C/svg%3E"
+  >
+
   <link rel="stylesheet" href="styles.css">
   <script src="script.js" defer></script>
 </head>
+
 <body>
-  <a class="skip-link" href="#main">跳至主要内容</a>
-  <header class="topbar"><a class="brand" href="#about">MN<span>聂梦溪 / Mengxi Nie</span></a><a class="top-contact" href="mailto:NIEMENGXI@sjtu.edu.cn">联系我 <span>↗</span></a></header>
+
+  <a class="skip-link" href="#main">
+    跳至主要内容
+  </a>
+
+
+  <!-- ==================== 顶部导航 ==================== -->
+
+  <header class="topbar">
+
+    <a class="brand" href="#about">
+      MN
+      <span>聂梦溪 / Mengxi Nie</span>
+    </a>
+
+    <a
+      class="top-contact"
+      href="mailto:NIEMENGXI@sjtu.edu.cn"
+    >
+      联系我 <span>↗</span>
+    </a>
+
+  </header>
+
+
   <div class="layout">
+
+
+    <!-- ==================== 左侧个人信息 ==================== -->
+
     <aside class="profile">
-      <div class="profile-top"><img class="portrait" src="portrait.jpg" alt="聂梦溪的个人照片" width="144" height="144"><p class="eyebrow">PERSONAL HOMEPAGE</p><h1>聂梦溪</h1><p class="roman-name">Mengxi Nie</p><p class="affiliation">上海交通大学 · 计算机学院<br>2026 级硕士研究生</p></div>
-      <nav aria-label="页面导航"><a href="#about" aria-current="location"><span>01</span>关于我</a><a href="#education"><span>02</span>教育经历</a><a href="#projects"><span>03</span>项目经历</a><a href="#skills"><span>04</span>技术能力</a><a href="#honors"><span>05</span>荣誉与交流</a></nav>
-      <div class="profile-bottom"><a href="mailto:NIEMENGXI@sjtu.edu.cn">NIEMENGXI@sjtu.edu.cn</a><p><a href="https://github.com/SYLVIACHUI">GitHub · SYLVIACHUI</a></p></div>
+
+      <div class="profile-top">
+
+        <img
+          class="portrait"
+          src="portrait.jpg"
+          alt="聂梦溪的个人照片"
+          width="144"
+          height="144"
+        >
+
+        <p class="eyebrow">
+          PERSONAL HOMEPAGE
+        </p>
+
+        <h1>
+          聂梦溪
+        </h1>
+
+        <p class="roman-name">
+          Mengxi Nie
+        </p>
+
+        <p class="affiliation">
+          上海交通大学 · 计算机学院
+          <br>
+          2026 级硕士研究生
+        </p>
+
+      </div>
+
+
+      <!-- 导航 -->
+
+      <nav aria-label="页面导航">
+
+        <a href="#about" aria-current="location">
+          <span>01</span>
+          关于我
+        </a>
+
+        <a href="#education">
+          <span>02</span>
+          教育经历
+        </a>
+
+        <a href="#projects">
+          <span>03</span>
+          项目经历
+        </a>
+
+        <a href="#skills">
+          <span>04</span>
+          技术能力
+        </a>
+
+        <a href="#honors">
+          <span>05</span>
+          荣誉与交流
+        </a>
+
+      </nav>
+
+
+      <!-- 联系方式 -->
+
+      <div class="profile-bottom">
+
+        <a href="mailto:NIEMENGXI@sjtu.edu.cn">
+          NIEMENGXI@sjtu.edu.cn
+        </a>
+
+        <p>
+          <a
+            href="https://github.com/SYLVIACHUI"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            GitHub · SYLVIACHUI
+          </a>
+        </p>
+
+      </div>
+
     </aside>
+
+
+    <!-- ==================== 主体内容 ==================== -->
+
     <main id="main">
+
+
+      <!-- ==================== 关于我 ==================== -->
+
       <section class="intro" id="about">
-        <p class="eyebrow">ABOUT ME</p><h2>从人工智能应用，<br>走向计算机系统研究<span class="period">。</span></h2>
-        <p class="lead">我是聂梦溪，现就读于上海交通大学计算机学院。本科毕业于北京语言大学人工智能专业，学习方向为语言智能。</p>
-        <p>我的项目实践横跨大模型应用、处理器设计与后端开发。我希望结合人工智能与 CPU 设计经历，进一步探索计算机体系结构、AI 计算加速和软硬件协同设计，重视实验验证、代码质量与技术文档。</p>
-        <div class="interests" aria-label="研究兴趣"><span>计算机体系结构</span><span>AI 计算加速</span><span>软硬件协同设计</span></div>
-        <div class="intro-actions"><a class="button primary" href="#projects">查看项目经历</a><button class="button secondary" id="print-button" type="button">打印 / 保存为 PDF</button></div>
-        <div class="highlights"><div><strong>32<span> 位</span></strong><p>MIPS 多周期处理器</p></div><div><strong>38<span> 种</span></strong><p>支持的处理器指令</p></div><div><strong>16<span> 种</span></strong><p>ALU 运算</p></div></div>
+
+        <p class="eyebrow">
+          ABOUT ME
+        </p>
+
+        <h2>
+          从人工智能应用，
+          <br>
+          走向计算机系统研究
+          <span class="period">。</span>
+        </h2>
+
+        <p class="lead">
+          我是聂梦溪，现就读于上海交通大学计算机学院。
+          本科毕业于北京语言大学人工智能专业，
+          学习方向为语言智能。
+        </p>
+
+        <p>
+          我的项目实践横跨大模型应用、处理器设计与后端开发。
+          我希望结合人工智能与 CPU 设计经历，
+          进一步探索计算机体系结构、AI 计算加速和软硬件协同设计，
+          重视实验验证、代码质量与技术文档。
+        </p>
+
+
+        <div class="interests" aria-label="研究兴趣">
+
+          <span>计算机体系结构</span>
+          <span>AI 计算加速</span>
+          <span>软硬件协同设计</span>
+
+        </div>
+
+
+        <div class="intro-actions">
+
+          <a
+            class="button primary"
+            href="#projects"
+          >
+            查看项目经历
+          </a>
+
+          <button
+            class="button secondary"
+            id="print-button"
+            type="button"
+          >
+            打印 / 保存为 PDF
+          </button>
+
+        </div>
+
+
+        <!-- 数据亮点 -->
+
+        <div class="highlights">
+
+          <div>
+            <strong>
+              32<span> 位</span>
+            </strong>
+
+            <p>
+              MIPS 多周期处理器
+            </p>
+          </div>
+
+
+          <div>
+            <strong>
+              38<span> 种</span>
+            </strong>
+
+            <p>
+              支持的处理器指令
+            </p>
+          </div>
+
+
+          <div>
+            <strong>
+              16<span> 种</span>
+            </strong>
+
+            <p>
+              ALU 运算
+            </p>
+          </div>
+
+        </div>
+
       </section>
-      <section id="education" class="section">
-        <div class="section-heading"><div><p class="eyebrow">EDUCATION</p><h2>教育经历</h2></div><span class="section-index">02 /</span></div>
-        <div class="education-item"><div class="date">2026.09 — 2028.06<span>预计毕业</span></div><div><h3>上海交通大学</h3><p>计算机与大数据技术 · 硕士研究生</p><span class="muted">计算机学院</span></div></div>
-        <div class="education-item"><div class="date">2022.09 — 2026.06</div><div><h3>北京语言大学</h3><p>人工智能（语言智能方向）· 本科</p><span class="muted">BLCU 硬件组成原理实验室</span></div></div>
+
+
+
+      <!-- ==================== 教育经历 ==================== -->
+
+      <section
+        id="education"
+        class="section"
+      >
+
+        <div class="section-heading">
+
+          <div>
+
+            <p class="eyebrow">
+              EDUCATION
+            </p>
+
+            <h2>
+              教育经历
+            </h2>
+
+          </div>
+
+          <span class="section-index">
+            02 /
+          </span>
+
+        </div>
+
+
+        <!-- 上海交通大学 -->
+
+        <div class="education-item">
+
+          <div class="date">
+
+            2026.09 — 2028.06
+
+            <span>
+              预计毕业
+            </span>
+
+          </div>
+
+
+          <div>
+
+            <h3>
+              上海交通大学
+            </h3>
+
+            <p>
+              计算机与大数据技术 · 硕士研究生
+            </p>
+
+            <span class="muted">
+              计算机学院
+            </span>
+
+          </div>
+
+        </div>
+
+
+        <!-- 北京语言大学 -->
+
+        <div class="education-item">
+
+          <div class="date">
+            2022.09 — 2026.06
+          </div>
+
+
+          <div>
+
+            <h3>
+              北京语言大学
+            </h3>
+
+            <p>
+              人工智能（语言智能方向）· 本科
+            </p>
+
+            <span class="muted">
+              BLCU 硬件组成原理实验室
+            </span>
+
+          </div>
+
+        </div>
+
       </section>
-      <section id="projects" class="section">
-        <div class="section-heading"><div><p class="eyebrow">SELECTED PROJECTS</p><h2>项目经历</h2></div><span class="section-index">03 /</span></div>
+
+
+
+      <!-- ==================== 项目经历 ==================== -->
+
+      <section
+        id="projects"
+        class="section"
+      >
+
+        <div class="section-heading">
+
+          <div>
+
+            <p class="eyebrow">
+              SELECTED PROJECTS
+            </p>
+
+            <h2>
+              项目经历
+            </h2>
+
+          </div>
+
+          <span class="section-index">
+            03 /
+          </span>
+
+        </div>
+
+
+
+        <!-- ==================== CPU 项目 ==================== -->
+
         <article class="project featured">
-          <div class="project-meta"><span class="category">计算机系统 / CPU 设计</span><time>2025.09 — 2026.05</time></div>
-          <h3>32 位 MIPS 多周期处理器<br class="desktop-break">与课程实验平台</h3>
-          <p>基于 Verilog 完成处理器核心模块设计、功能仿真及 FPGA 上板验证，并参与开发面向《计算机组成原理》课程的实验平台，平台已投入使用。</p>
-          <div class="pipeline" aria-label="处理器多周期执行流程"><span>取指<small>IF</small></span><span>译码<small>ID</small></span><span>执行<small>EX</small></span><span>访存<small>MEM</small></span><span>写回<small>WB</small></span></div>
-          <div class="tags"><span>Verilog</span><span>Vivado</span><span>Xilinx FPGA</span><span>Python / PyQt5</span></div>
-          <details><summary>核心工作与验证</summary><ul><li>设计运算器、控制器及存储器相关模块，支持 38 种指令与 16 种 ALU 运算。</li><li>使用有限状态机组织指令执行，通过 16 位控制向量统一生成控制信息，支持伪指令组合及新增机器指令。</li><li>在 Vivado 中完成核心模块功能仿真，并结合 FPGA 板载按键与数码管进行运算器验证。</li><li>参与 PyQt5 实验平台开发，提供汇编编辑、寄存器与内存状态查看功能，设计运算器、控制器、指令扩展与存储器系列实验。</li></ul></details>
+
+          <div class="project-meta">
+
+            <span class="category">
+              计算机系统 / CPU 设计
+            </span>
+
+            <time>
+              2025.09 — 2026.05
+            </time>
+
+          </div>
+
+
+          <h3>
+            32 位 MIPS 多周期处理器
+            <br class="desktop-break">
+            与课程实验平台
+          </h3>
+
+
+          <p>
+            基于 Verilog 完成处理器核心模块设计、功能仿真及 FPGA
+            上板验证，并参与开发面向《计算机组成原理》课程的实验平台，
+            平台已投入使用。
+          </p>
+
+
+          <div
+            class="pipeline"
+            aria-label="处理器多周期执行流程"
+          >
+
+            <span>
+              取指
+              <small>IF</small>
+            </span>
+
+            <span>
+              译码
+              <small>ID</small>
+            </span>
+
+            <span>
+              执行
+              <small>EX</small>
+            </span>
+
+            <span>
+              访存
+              <small>MEM</small>
+            </span>
+
+            <span>
+              写回
+              <small>WB</small>
+            </span>
+
+          </div>
+
+
+          <div class="tags">
+
+            <span>Verilog</span>
+            <span>Vivado</span>
+            <span>Xilinx FPGA</span>
+            <span>Python / PyQt5</span>
+
+          </div>
+
+
+          <details>
+
+            <summary>
+              核心工作与验证
+            </summary>
+
+            <ul>
+
+              <li>
+                设计运算器、控制器及存储器相关模块，
+                支持 38 种指令与 16 种 ALU 运算。
+              </li>
+
+              <li>
+                使用有限状态机组织指令执行，
+                通过 16 位控制向量统一生成控制信息，
+                支持伪指令组合及新增机器指令。
+              </li>
+
+              <li>
+                在 Vivado 中完成核心模块功能仿真，
+                并结合 FPGA 板载按键与数码管进行运算器验证。
+              </li>
+
+              <li>
+                参与 PyQt5 实验平台开发，
+                提供汇编编辑、寄存器与内存状态查看功能，
+                设计运算器、控制器、指令扩展与存储器系列实验。
+              </li>
+
+            </ul>
+
+          </details>
+
         </article>
+
+
+
+        <!-- ==================== RAG 项目 ==================== -->
+
         <article class="project">
-          <div class="project-meta"><span class="category">大模型应用 / RAG</span><time>2023.06 — 2025.06</time></div>
-          <h3>汉语作文智能评价与润色系统</h3><p>面向中小学生汉语教学场景，基于大语言模型实现个性化作文润色，结合机器与人工评估持续迭代提示词、检索策略和知识库内容。</p>
-          <div class="tags"><span>Python / FastAPI</span><span>LangChain</span><span>Qwen / Ollama</span><span>BM25</span><span>PaddleOCR</span></div>
-          <details><summary>核心工作与评测</summary><ul><li>通过 Ollama 本地部署 Qwen 大语言模型与 Embedding 模型。</li><li>结合 Markdown 标题层级、段落和句子进行结构感知切分，构建向量索引与 BM25 关键词索引。</li><li>参与 OCR 测试与提示词优化，使用 BLEU 结合人工评估验证润色结果。</li></ul></details>
+
+          <div class="project-meta">
+
+            <span class="category">
+              大模型应用 / RAG
+            </span>
+
+            <time>
+              2023.06 — 2025.06
+            </time>
+
+          </div>
+
+
+          <h3>
+            汉语作文智能评价与润色系统
+          </h3>
+
+
+          <p>
+            面向中小学生汉语教学场景，
+            基于大语言模型实现个性化作文润色，
+            结合机器与人工评估持续迭代提示词、
+            检索策略和知识库内容。
+          </p>
+
+
+          <div class="tags">
+
+            <span>Python / FastAPI</span>
+            <span>LangChain</span>
+            <span>Qwen / Ollama</span>
+            <span>BM25</span>
+            <span>PaddleOCR</span>
+
+          </div>
+
+
+          <!-- GitHub 仓库 -->
+
+          <a
+            class="project-link"
+            href="https://github.com/SYLVIACHUI/-RAG-composition_polish"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            GitHub 仓库 ↗
+          </a>
+
+
+          <details>
+
+            <summary>
+              核心工作与评测
+            </summary>
+
+            <ul>
+
+              <li>
+                通过 Ollama 本地部署 Qwen
+                大语言模型与 Embedding 模型。
+              </li>
+
+              <li>
+                结合 Markdown 标题层级、段落和句子进行结构感知切分，
+                构建向量索引与 BM25 关键词索引。
+              </li>
+
+              <li>
+                参与 OCR 测试与提示词优化，
+                使用 BLEU 结合人工评估验证润色结果。
+              </li>
+
+            </ul>
+
+          </details>
+
         </article>
+
+
+
+        <!-- ==================== Java 后端项目 ==================== -->
+
         <article class="project">
-          <div class="project-meta"><span class="category">后端工程 / 数据一致性</span><time>2026.06 — 2026.09</time></div>
-          <h3>贝鱼儿自助二手交易平台</h3><p>基于 Spring Boot 开展后端开发，重点实践用户与业务流程管理、会话安全、敏感数据加密、并发控制和模拟结算的幂等处理。</p>
-          <div class="tags"><span>Java 17 / Spring Boot</span><span>MySQL</span><span>Redis</span><span>MyBatis</span><span>Docker Compose</span></div>
-          <details><summary>核心工作与工程实现</summary><ul><li>使用随机令牌、Redis 与 HttpOnly Cookie 管理登录会话，使用 BCrypt 存储密码哈希。</li><li>使用 AES-256-GCM 加密敏感信息，通过 HMAC-SHA256 构建查询索引，并校验角色与资源归属。</li><li>通过 MySQL 原子条件更新、唯一约束及事务回滚处理名额扣减与重复请求。</li><li>在模拟结算中结合幂等标识、唯一流水号、状态校验与钱包行锁，保证扣款、入账和通知的一致性。</li></ul></details>
+
+          <div class="project-meta">
+
+            <span class="category">
+              后端工程 / 数据一致性
+            </span>
+
+            <time>
+              2026.06 — 2026.09
+            </time>
+
+          </div>
+
+
+          <h3>
+            贝鱼儿自助二手交易平台
+          </h3>
+
+
+          <p>
+            基于 Spring Boot 开展后端开发，
+            重点实践用户与业务流程管理、会话安全、
+            敏感数据加密、并发控制和模拟结算的幂等处理。
+          </p>
+
+
+          <div class="tags">
+
+            <span>Java 17 / Spring Boot</span>
+            <span>MySQL</span>
+            <span>Redis</span>
+            <span>MyBatis</span>
+            <span>Docker Compose</span>
+
+          </div>
+
+
+          <!-- GitHub 仓库 -->
+
+          <a
+            class="project-link"
+            href="https://github.com/SYLVIACHUI/college-student-job-platform"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            GitHub 仓库 ↗
+          </a>
+
+
+          <details>
+
+            <summary>
+              核心工作与工程实现
+            </summary>
+
+            <ul>
+
+              <li>
+                使用随机令牌、Redis 与 HttpOnly Cookie
+                管理登录会话，使用 BCrypt 存储密码哈希。
+              </li>
+
+              <li>
+                使用 AES-256-GCM 加密敏感信息，
+                通过 HMAC-SHA256 构建查询索引，
+                并校验角色与资源归属。
+              </li>
+
+              <li>
+                通过 MySQL 原子条件更新、唯一约束及事务回滚
+                处理名额扣减与重复请求。
+              </li>
+
+              <li>
+                在模拟结算中结合幂等标识、唯一流水号、
+                状态校验与钱包行锁，
+                保证扣款、入账和通知的一致性。
+              </li>
+
+            </ul>
+
+          </details>
+
         </article>
+
+
+
+        <!-- ==================== AI Agent ==================== -->
+
         <article class="project">
-          <div class="project-meta"><span class="category">智能体 / AGENT</span><time>2026.10 — 至今</time></div>
-          <h3>基于 Spring 框架的 AI Agent 系统<span class="ongoing">进行中</span></h3><p>围绕 Think–Execute 循环构建智能体系统，实现自主决策、调用与知识库检索，支持多模型切换、RAG 检索和实时通信。</p>
-          <div class="tags"><span>Spring</span><span>Think–Execute</span><span>RAG</span><span>多模型切换</span></div>
+
+          <div class="project-meta">
+
+            <span class="category">
+              智能体 / AGENT
+            </span>
+
+            <time>
+              2026.10 — 至今
+            </time>
+
+          </div>
+
+
+          <h3>
+            基于 Spring 框架的 AI Agent 系统
+
+            <span class="ongoing">
+              进行中
+            </span>
+
+          </h3>
+
+
+          <p>
+            围绕 Think–Execute 循环构建智能体系统，
+            实现自主决策、调用与知识库检索，
+            支持多模型切换、RAG 检索和实时通信。
+          </p>
+
+
+          <div class="tags">
+
+            <span>Spring</span>
+            <span>Think–Execute</span>
+            <span>RAG</span>
+            <span>多模型切换</span>
+
+          </div>
+
         </article>
+
       </section>
-      <section id="skills" class="section">
-        <div class="section-heading"><div><p class="eyebrow">TECHNICAL TOOLKIT</p><h2>技术能力</h2></div><span class="section-index">04 /</span></div>
-        <div class="skill-grid"><div><span class="skill-number">01</span><h3>编程与开发基础</h3><p>掌握 C/C++、内存管理、面向对象编程与 STL；具备 Python、Java 基础，熟悉数据结构、算法、网络编程和常见设计模式。</p></div><div><span class="skill-number">02</span><h3>硬件与系统</h3><p>具备数字逻辑与 Verilog 基础，有 RTL 设计、Vivado 功能仿真和 FPGA 上板验证经验。</p></div><div><span class="skill-number">03</span><h3>AI 与后端</h3><p>具备机器学习、信息检索与 RAG 项目经验；熟悉 MySQL 和 SQL，了解 Redis 与 Spring 框架。</p></div><div><span class="skill-number">04</span><h3>工具与工作方式</h3><p>熟悉 Linux 开发环境，使用 Vim、Git 和 GitHub 进行开发与协作；重视文档阅读、实验验证和持续迭代。</p></div></div>
+
+
+
+      <!-- ==================== 技术能力 ==================== -->
+
+      <section
+        id="skills"
+        class="section"
+      >
+
+        <div class="section-heading">
+
+          <div>
+
+            <p class="eyebrow">
+              TECHNICAL TOOLKIT
+            </p>
+
+            <h2>
+              技术能力
+            </h2>
+
+          </div>
+
+          <span class="section-index">
+            04 /
+          </span>
+
+        </div>
+
+
+        <div class="skill-grid">
+
+
+          <div>
+
+            <span class="skill-number">
+              01
+            </span>
+
+            <h3>
+              编程与开发基础
+            </h3>
+
+            <p>
+              掌握 C/C++、内存管理、面向对象编程与 STL；
+              具备 Python、Java 基础，
+              熟悉数据结构、算法、网络编程和常见设计模式。
+            </p>
+
+          </div>
+
+
+          <div>
+
+            <span class="skill-number">
+              02
+            </span>
+
+            <h3>
+              硬件与系统
+            </h3>
+
+            <p>
+              具备数字逻辑与 Verilog 基础，
+              有 RTL 设计、Vivado 功能仿真和 FPGA
+              上板验证经验。
+            </p>
+
+          </div>
+
+
+          <div>
+
+            <span class="skill-number">
+              03
+            </span>
+
+            <h3>
+              AI 与后端
+            </h3>
+
+            <p>
+              具备机器学习、信息检索与 RAG 项目经验；
+              熟悉 MySQL 和 SQL，
+              了解 Redis 与 Spring 框架。
+            </p>
+
+          </div>
+
+
+          <div>
+
+            <span class="skill-number">
+              04
+            </span>
+
+            <h3>
+              工具与工作方式
+            </h3>
+
+            <p>
+              熟悉 Linux 开发环境，
+              使用 Vim、Git 和 GitHub 进行开发与协作；
+              重视文档阅读、实验验证和持续迭代。
+            </p>
+
+          </div>
+
+
+        </div>
+
       </section>
-      <section id="honors" class="section">
-        <div class="section-heading"><div><p class="eyebrow">HONORS & EXPERIENCE</p><h2>荣誉与交流</h2></div><span class="section-index">05 /</span></div>
-        <ul class="honors-list"><li><span>蓝桥杯</span><strong>二等奖</strong></li><li><span>数学竞赛</span><strong>二等奖</strong></li><li><span>互联网+大赛</span><strong>三等奖</strong></li><li><span>计算机设计大赛</span><strong>三等奖</strong></li><li><span>北京语言大学</span><strong>校三好学生</strong></li></ul>
-        <div class="exchange"><p class="eyebrow">INTERNATIONAL EXCHANGE</p><h3>中亚大学生创新交流营</h3><p>作为学校代表赴哈萨克斯坦参加交流营，参与国际创新项目交流与学术讨论。</p></div>
+
+
+
+      <!-- ==================== 荣誉 ==================== -->
+
+      <section
+        id="honors"
+        class="section"
+      >
+
+        <div class="section-heading">
+
+          <div>
+
+            <p class="eyebrow">
+              HONORS & EXPERIENCE
+            </p>
+
+            <h2>
+              荣誉与交流
+            </h2>
+
+          </div>
+
+          <span class="section-index">
+            05 /
+          </span>
+
+        </div>
+
+
+        <ul class="honors-list">
+
+          <li>
+            <span>蓝桥杯</span>
+            <strong>二等奖</strong>
+          </li>
+
+          <li>
+            <span>数学竞赛</span>
+            <strong>二等奖</strong>
+          </li>
+
+          <li>
+            <span>互联网+大赛</span>
+            <strong>三等奖</strong>
+          </li>
+
+          <li>
+            <span>计算机设计大赛</span>
+            <strong>三等奖</strong>
+          </li>
+
+          <li>
+            <span>北京语言大学</span>
+            <strong>校三好学生</strong>
+          </li>
+
+        </ul>
+
+
+        <div class="exchange">
+
+          <p class="eyebrow">
+            INTERNATIONAL EXCHANGE
+          </p>
+
+          <h3>
+            中亚大学生创新交流营
+          </h3>
+
+          <p>
+            作为学校代表赴哈萨克斯坦参加交流营，
+            参与国际创新项目交流与学术讨论。
+          </p>
+
+        </div>
+
       </section>
-      <footer><div><h2>期待交流与学习。</h2><p>欢迎就计算机系统与人工智能相关问题联系我。</p><a href="mailto:NIEMENGXI@sjtu.edu.cn">NIEMENGXI@sjtu.edu.cn</a></div><div class="footer-note"><span>© 2026 聂梦溪</span><span>更新于 2026 年 10 月</span><a href="#about">回到顶部</a></div></footer>
+
+
+
+      <!-- ==================== Footer ==================== -->
+
+      <footer>
+
+        <div>
+
+          <h2>
+            期待交流与学习。
+          </h2>
+
+          <p>
+            欢迎就计算机系统与人工智能相关问题联系我。
+          </p>
+
+          <a href="mailto:NIEMENGXI@sjtu.edu.cn">
+            NIEMENGXI@sjtu.edu.cn
+          </a>
+
+        </div>
+
+
+        <div class="footer-note">
+
+          <span>
+            © 2026 聂梦溪
+          </span>
+
+          <span>
+            更新于 2026 年 10 月
+          </span>
+
+          <a href="#about">
+            回到顶部
+          </a>
+
+        </div>
+
+      </footer>
+
+
     </main>
+
   </div>
+
 </body>
+
 </html>
-
-
+```
