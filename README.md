@@ -33,6 +33,10 @@
 
 内容根据提供的简历整理，硕士毕业时间标记为预计，Agent 项目标记为进行中；奖项保留简历原有等级，未补充未经提供的赛事级别、年份或论文成果。贝鱼儿项目名称按本人确认使用，技术描述来自简历。联系方式使用学校邮箱。网站包未包含原始简历 PDF。
 
-GitHub 账号：SYLVIACHUI。主页仓库：https://github.com/SYLVIACHUI/sylviachui.github.io 。启用 Pages 并部署成功后的地址：https://sylviachui.github.io/ 。各项目代码仓库尚未提供。
+GitHub 账号：SYLVIACHUI。主页仓库：https://github.com/SYLVIACHUI/sylviachui.github.io 。启用 Pages 并部署成功后的地址：https://sylviachui.github.io/ 。RAG 项目仓库：https://github.com/SYLVIACHUI/-RAG-composition_polish 。后端开发项目仓库：https://github.com/SYLVIACHUI/college-student-job-platform 。
 
 
+
+## 2026-10-08 更新
+
+根据新版简历更新研究兴趣与简介，调整为优先展示 AI Agent 项目，补充 Agent 架构、工具权限与记忆管理；实验室名称更新为 BLCU-ICALL，CPU 项目补充 Python 汇编器设计。RAG 和后端开发项目新增可直接打开的真实 GitHub 仓库链接。
