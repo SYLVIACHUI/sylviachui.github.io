@@ -1,4 +1,4 @@
-# 聂梦溪 · 个人主页
+# 个人主页
 
 面向学术交流的静态个人主页，包含教育经历、研究兴趣、项目经历、技术能力与荣誉。可直接在 GitHub Pages 上发布，无需安装依赖或编译。
 
@@ -40,3 +40,5 @@ GitHub 账号：SYLVIACHUI。主页仓库：https://github.com/SYLVIACHUI/sylvia
 ## 2026-10-08 更新
 
 根据新版简历更新研究兴趣与简介，调整为优先展示 AI Agent 项目，补充 Agent 架构、工具权限与记忆管理；实验室名称更新为 BLCU-ICALL，CPU 项目补充 Python 汇编器设计。RAG 和后端开发项目新增可直接打开的真实 GitHub 仓库链接。
+
+诚谢 codex 的帮助
